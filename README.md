@@ -1,5 +1,13 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+## How to reproduce the error with embedded wallets
+
+1. run the app locally
+2. connect with an embedded wallet (use email or google's SSO)
+3. try to sign a message or send a dummy transaction
+
+You will notice that on the `/pages` router it works fine, whereas in the `/` app router, it doesn't
+
 ## Getting Started
 
 First, run the development server:
